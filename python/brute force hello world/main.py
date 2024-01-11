@@ -33,9 +33,11 @@ def SlowMethod():
         print(helloWorldString)
         if helloWorldString == "helloworld":
             x = False
-        helloWorldString = ""
+        else:
+            helloWorldString = ""
 
     print(helloWorldString)
 
 
 QuickMethod()
+SlowMethod()
