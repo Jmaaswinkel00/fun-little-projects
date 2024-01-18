@@ -7,5 +7,6 @@ What is in it right now:
 
 - Python:
     - Brute force strings such as helloworld
-    - encryption
-        - increase the ascii value of letters to create new strings 
+    - Encryption
+        - Increase the ascii value of letters to create new strings
+        - Using a key in order to encrypt
