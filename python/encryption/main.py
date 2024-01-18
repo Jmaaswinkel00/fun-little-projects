@@ -9,7 +9,7 @@ def main():
     # print(f"our encrypted string using the letter value increase is: {increaseLetterValue.encrypt(wordToEncrypt)}")
     # print(f"our decrypted string using the letter value increase is: {increaseLetterValue.decrypt(increaseLetterValue.encrypt(wordToEncrypt))}")
     print(f"our encrypted string using the key encryption is: {key.encrypt(wordToEncrypt)}")
-    print(f"our decrypted string using the key encryption is: {key.decrypt('ykssu')}")
+    print(f"our decrypted string using the key encryption is: {key.decrypt('aaacauwke')}")
 
 if __name__ == "__main__":
     main()
