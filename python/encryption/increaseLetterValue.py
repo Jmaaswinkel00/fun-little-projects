@@ -8,7 +8,7 @@ class increaseLetterValue:
         self.valueIncrease = 5
         
 
-    def encrypt(self, wordToEncrypt: str):
+    def encrypt(self, wordToEncrypt: str) -> str:
         listOfChars = list(wordToEncrypt)
         for i, char in enumerate(listOfChars):
             encryptedChar = ord(char)
@@ -18,12 +18,12 @@ class increaseLetterValue:
         
         return self.encryptedString.join(self.encryptedList)
     
-    def decrypt(self, wordToDecrypt: str):
+    def decrypt(self, wordToDecrypt: str) -> str:
         listOfChars = list(wordToDecrypt)
         for i, char in enumerate(listOfChars):
             decryptedChar = ord(char)
             if(decryptedChar-self.valueIncrease < 97):
                 decryptedChar = ord(char) + 26
             self.decryptedList.append(chr(decryptedChar - self.valueIncrease))
-            
+
         return self.decryptedString.join(self.decryptedList)
