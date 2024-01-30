@@ -19,7 +19,7 @@ class key:
                 char = ord(char) - 97
                 charToEncrypt = ord(listToEncrypt[0])
                 
-                for i in range(char):
+                for _ in range(char):
                     if charToEncrypt == 97:
                         charToEncrypt = 122
                     charToEncrypt -= 1
@@ -37,7 +37,7 @@ class key:
                 char = ord(char) - 97
                 charToDecrypt = ord(listToDecrypt[0])
                 
-                for i in range(char):
+                for _ in range(char):
                     if charToDecrypt == 122:
                         charToDecrypt = 97
                     charToDecrypt += 1
